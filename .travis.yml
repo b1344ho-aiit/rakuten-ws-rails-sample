@@ -1,3 +1,10 @@
 language: ruby
 rvm:
-  - 2.0.0
+- 2.0.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: uzunMjUS7b9CM2pHvqPzJ4Nw269SOgTMQEr2zKEirtko0J/ysdvad+kqPZ95vZ8NNlB1gzwXi7dl0Al9ksIu/w58BeRQuJ4HorxfMbpXF1G/ulGLm8FqMzLz6b92vq56ZUgFm5OLgd7F0mQFZJ/H4bf2teDAreZcHr78wvAQSyk=
+  app: mysterious-sea-6346
+  on:
+    repo: b1344ho-aiit/rakuten-ws-rails-sample
